@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+#content1{
+	width:65%;
+	float:right;
+	border-bottom:1px solid black;	
+}
+
+#content2{
+	width:30%;
+	float:left;
+	font-size: 0.9em;
+	border-top:1px solid black;
+}
