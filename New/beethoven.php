@@ -8,7 +8,7 @@ require_once 'cookie_management.php';
 $is_mobile = cookie_management();
 
 # Set the cache control header
-//header("Cache-Control: max-age=604800");
+header("Cache-Control: max-age=604800");
 
 $html_to_print = '<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><title>Lyrics of Beethoven\'s Ode to Joy - Lyrics repository</title><link rel="stylesheet" type="text/css" href="'.$path_parts['dirname'].'/base.php"/>';
 if ($is_mobile == 0)
