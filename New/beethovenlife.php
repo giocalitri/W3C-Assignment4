@@ -15,7 +15,7 @@ if ($is_mobile == 0)
 {
 	$html_to_print .= '<link rel="stylesheet" type="text/css" href="enhanced_600_800.css"/><link rel="stylesheet" type="text/css" href="enhanced_800_plus.css" media="only all and (min-width: 801px)" /><!--[if lt IE 9 & !IEMobile]><link rel="stylesheet" type="text/css" href="enhanced_600_800.css"/><![endif]-->';
 }
-$html_to_print .= '</head><body><div id="header"><h1>Lyrics of Beethoven\'s Ode to Joy</h1></div><div id="container"><div id="sidebar1" class="sidebar"><ul><li><a href="#">Lyric Repository\'s Home</a></li><li><a href="#">Site Map</a></li></ul></div><div id="breadcrumbs" class="breadcrumbs">	Home -&gt; Beethoven\'s Ode to Joy</div><div id="centralpart"><div id="content1" class="content">';
+$html_to_print .= '</head><body><div id="header"><h1>Lyrics of Beethoven\'s Ode to Joy</h1></div><div id="container"><div id="sidebar1" class="sidebar"><ul><li><a href="#">Lyric Repository\'s Home</a></li><li><a href="#">Site Map</a></li></ul></div><div id="breadcrumbs" class="breadcrumbs">	Home -&gt; Beethoven\'s Info</div><div id="centralpart"><div id="content1" class="content">';
 if ($is_mobile == 0)
 {
 	$html_to_print .= '<img width="240" height="300" alt="Beethoven\'s portrait" src="beethoven_240px.gif" class="big-images"/>';
@@ -25,13 +25,7 @@ else
 	$html_to_print .= '<img width="120" height="150" alt="Beethoven\'s portrait" src="beethoven_120px.gif" class="big-images"/>';
 }
 				
-$html_to_print .= '<p>Beethoven\'s last symphony includes part of the <cite>Ode to Joy</cite> poem\'s written by Friedrich Schiller.</p>'.
-				'<blockquote><p>Freude, schöner Götterfunken<br/>Tochter aus Elysium,<br/>Wir betreten feuertrunken,<br/>Himmlische, dein Heiligtum!<br/>Deine Zauber binden wieder<br/>Was die Mode streng geteilt;<br/>Alle Menschen werden Brüder,<br/>Wo dein sanfter Flügel weilt.</p>'.
-				'<p>Wem der große Wurf gelungen,<br/>Eines Freundes Freund zu sein;<br/>Wer ein holdes Weib errungen,<br/>Mische seinen Jubel ein!<br/>Ja, wer auch nur eine Seele<br/>Sein nennt auf dem Erdenrund!<br/>Und wer\'s nie gekonnt, der stehle<br/>Weinend sich aus diesem Bund!</p>'.
-				'<p>Freude trinken alle Wesen<br/>An den Brüsten der Natur;<br/>Alle Guten, alle Bösen<br/>Folgen ihrer Rosenspur.<br/>Küsse gab sie uns und Reben,<br/>Einen Freund, geprüft im Tod;<br/>Wollust ward dem Wurm gegeben,<br/>und der Cherub steht vor Gott.</p>'.
-				'<p>Froh,<br/>wie seine Sonnen fliegen<br/>Durch des Himmels prächt\'gen Plan,<br/>Laufet, Brüder, eure Bahn,<br/>Freudig, wie ein Held zum Siegen.</p>'.
-				'<p>Seid umschlungen, Millionen!<br/>Diesen Kuß der ganzen Welt!<br/>Brüder, über\'m Sternenzelt<br/>Muß ein lieber Vater wohnen.<br/>Ihr stürzt nieder, Millionen?<br/>Ahnest du den Schöpfer, Welt?<br/>Such\' ihn über\'m Sternenzelt!<br/>Über Sternen muß er wohnen.</p>'.
-				'</blockquote></div>'.
+$html_to_print .= '<p>Ludwig van Beethoven (baptized 17 December 1770 - 26 March 1827) was a German composer and pianist.<br/>A crucial figure in the transition between the Classical and Romantic eras in Western art music, Beethoven is often cited as the greatest composer who ever lived.<br/>Born in Bonn, then the capital of the Electorate of Cologne and part of the Holy Roman Empire, Beethoven moved to Vienna in his early 20s, studying with Joseph Haydn and quickly gaining a reputation as a virtuoso pianist.<br/>His hearing began to deteriorate in the late 1790s, yet he continued to compose, conduct, and perform, even after becoming completely deaf.</p></div>'.
 				'<div id="content2" class="content">'.
 				'<h2>Beethoven\'s symphonies</h2>'.
 				'<dl class="symphonies-list">'.
@@ -46,7 +40,7 @@ $html_to_print .= '<p>Beethoven\'s last symphony includes part of the <cite>Ode 
 				'<dt><img width="15" height="15" alt="[Music Symbol]" src="music.gif" /> Symphony 9</dt><dd>Op. 125</dd><dd>Tone: D Minor</dd><dd>Year: 1824</dd>'.
 				'</dl></div></div>'.
 				'<div id="sidebar2" class="sidebar">'.
-				'<ul><li><a href="#">Other lyrics from this artist</a></li><li><a href="'.$path_parts['dirname'].'/beethovenlife.php">More information on this artist</a></li><li><a href="#">Other lyrics from this period</a></li><li><a href="#">Contact Us</a></li><li><a href="#">Copyright and licenses</a></li><li><a href="#">Privacy policy</a></li><li>';
+				'<ul><li><a href="#">Other lyrics from this artist</a></li><li><a href="'.$path_parts['dirname'].'/beethoven.php">Beethoven\'s Ode to Joy</a></li><li><a href="#">Other lyrics from this period</a></li><li><a href="#">Contact Us</a></li><li><a href="#">Copyright and licenses</a></li><li><a href="#">Privacy policy</a></li><li>';
 if($is_mobile == 0) 
 {
 	$html_to_print .= '<a href="'.$_SERVER['PHP_SELF'].'?vpa=m">Visit mobile version of this website</a>';
