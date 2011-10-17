@@ -9,6 +9,7 @@
 
 function cookie_management()
 {
+	$DOMAIN = $GLOBALS['DOMAIN'];
 	
 	#if there is a request to view the page in a particular way, I override the cookie in any case
 	# so that I bypass the browser detection
