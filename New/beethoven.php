@@ -9,13 +9,14 @@ $is_mobile = cookie_management();
 
 # Set the cache control header
 header("Cache-Control: max-age=604800");
+header("Vary: User-Agent, Accept");
 
 $html_to_print = '<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><title>Lyrics of Beethoven\'s Ode to Joy - Lyrics repository</title><link rel="stylesheet" type="text/css" href="'.$path_parts['dirname'].'/base.php"/>';
 if ($is_mobile == 0)
 {
 	$html_to_print .= '<link rel="stylesheet" type="text/css" href="'.$path_parts['dirname'].'/enhanced_600_800.php"/><link rel="stylesheet" type="text/css" href="'.$path_parts['dirname'].'/enhanced_800_plus.php" media="only all and (min-width: 801px)" /><!--[if lt IE 9 & !IEMobile]><link rel="stylesheet" type="text/css" href="'.$path_parts['dirname'].'/enhanced_600_800.php"/><![endif]-->';
 }
-$html_to_print .= '</head><body><div id="header"><h1>Lyrics of Beethoven\'s Ode to Joy</h1></div><div id="container"><div id="sidebar1" class="sidebar"><ul><li><a href="#">Lyric Repository\'s Home</a></li><li><a href="#">Site Map</a></li></ul></div><div id="breadcrumbs" class="breadcrumbs">	Home -&gt; Beethoven\'s Ode to Joy</div><div id="centralpart"><div id="content1" class="content">';
+$html_to_print .= '<link rel="canonical" href="http://'.$_SERVER['SERVER_NAME'].'/beethoven.php"/></head><body><div id="header"><h1>Lyrics of Beethoven\'s Ode to Joy</h1></div><div id="container"><div id="sidebar1" class="sidebar"><ul><li><a href="#">Lyric Repository\'s Home</a></li><li><a href="#">Site Map</a></li></ul></div><div id="breadcrumbs" class="breadcrumbs">	Home -&gt; Beethoven\'s Ode to Joy</div><div id="centralpart"><div id="content1" class="content">';
 if ($is_mobile == 0)
 {
 	$html_to_print .= '<img width="240" height="300" alt="Beethoven\'s portrait" src="beethoven_240px.gif" class="big-images"/>';
